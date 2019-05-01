@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## Hi, welcome to the ESCI Blockchain Github Repo
+
+Right now this is under construction, the updates and information is coming soon, but meanwhile, just is an await topic :( ...
 
 You can use the [editor on GitHub](https://github.com/esci-blockchain/esci/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
