@@ -1,39 +1,47 @@
-## Hi, welcome to the ESCI Blockchain Github Repo
+#Finalmente!, una manera *universal* de Usar blockchain en programas de Gobierno
 
-Right now this is under construction, the updates and information is coming soon, but meanwhile, just is an await topic :( ...
+##Introducción
 
-You can use the [editor on GitHub](https://github.com/esci-blockchain/esci/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Hace más de una decada, las economias globales caían junto y a causa de los bancos y su avaricia, es por ello que llego una crisis econimica de proporciones que al dia de hoy nos continuan aectando, es entonces donde un programador anonimo aparecio emtre las sombras y puso entre las mentes de la comunidad del Software Libre una idea que lo cambiaria todo, la denominada ***Blockchain***  , para aquelllos que totalmente desconozcan el termino, podemos definirla como un registro contable que es matematicamente imposible de corromper o modificar, para aquellos que quieran saber mas queda [La Wikipedia](https://es.wikipedia.org/wiki/Cadena_de_bloques).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+###Pero... Aqui no estamos para leer un sermon de historia... Verdad?
 
-### Markdown
+Bueno, no, supongo mi buen amigo, aqui es donde viene lo bueno, durante años, muchos creyeron que un blockchain solo servia para monedas virtuales(*criptomonedas...*) era una tecnologia con un gran potencial desperdiciado, incluso habian y aun hay quienes toman el termino blockchain y una criptomoneda como sinonimos, en concreto con respecto a *Bitcoin*, pero aparecerian las denominadas Aplicaciones Descentralizadas (*DApps*), con un potencial quiza infinito de las posibilidades de un registro contable(*"Ledger"*) que nos se puede cambiar.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+##Donde entra ESCI en todo esto??
+Claro, claro; el objetivo de ESCI es ser una solucion basada en blockchain en La Nube, que provea facilidad y confiabilidad a los Gobiernos del mundo, facilitandoles la integracion a la tecnologia blockchain y ser mucho menos suceptibles a ataques informaticos.
 
-```markdown
-Syntax highlighted code block
+###POr que ESCI
+En cuanto al uso, como aun no esta en un estado lo suficientemente maduro, es por ahora inutilizable para el proposito designado, es por ello que queda ante nosotros, la comunidad del software libre, los que podemos avamzar en esta travesia juntos, no inventare una larga y ridicula lista publicitaria de razones para elegir este *"Producto"*, eso queda para luego.
 
-# Header 1
-## Header 2
-### Header 3
+Si tu pregunta es "Por que se llama ESCI?, no te tengo una respuesta que te guste, simplemente **Se me pego la regalada gana***, pero pudes tomarlo como «Enchanced and Secure Control Implementation» o «ESCI Such Cryptocurrency Idea» o algun otro acronimo por el estilo...
+##Intalacion
+###Sobre el programa
+ESCI esta escrito(por ahora) en Python3, se ha probado con python 3.6.7 en LM19.1 (compatible con Ubuntu 18.04 Bionic Beaver), para hacerlo funcionar necesitas ciertas bl=ibliotecas que puedes instalar asi:
 
-- Bulleted
-- List
+~~~
+pip3 install collections binascii Crypto flask requests jsonify setuptools hashlib json time urllib
+~~~
 
-1. Numbered
-2. List
+Si se que son muchas, pero mas de una debe estar ya instalada, si quieres ahorrarte una pequena molestia, utliza Anaconda Python Distribution, informacion en : [https://www.digitalocean.com/community/tutorials/how-to-install-the-anaconda-python-distribution-on-ubuntu-16-04].
 
-**Bold** and _Italic_ and `Code` text
+en el caso que no tengas Python 3 ni pip en tu sistema(poco problble) utiliza el comando siguiente en tu terminal:
 
-[Link](url) and ![Image](src)
-```
+~~~
+$ sudo apt-get update
+$ sudo apt-get install python3 python3-pip -yq
+~~~
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+En sistemas Red Hat, Fedora y derivados usa:\
+~~~
+$ su -c yum install  python3 python3-pip --assume-yes --quiet
+~~~
+*En caso que no sepas como instalarlas en tu sistema, busca los dos paquetes **python3 python3-pip ***** en tu centro de Software o en Google.
 
-### Jekyll Themes
+Luego clona este repositorio en una terminal asi:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/esci-blockchain/esci/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+~~~
+$ git clone
+~~~
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
